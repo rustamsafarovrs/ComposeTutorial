@@ -26,7 +26,8 @@ import androidx.compose.ui.unit.dp
 import tj.rsdevteam.composetutorial.ui.theme.ComposeTutorialTheme
 import tj.rsdevteam.composetutorial.ui.theme.shape
 
-class MainActivity : ComponentActivity() {
+class StarterActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
