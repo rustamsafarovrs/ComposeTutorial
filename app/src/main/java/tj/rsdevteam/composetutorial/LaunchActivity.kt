@@ -33,6 +33,9 @@ class LaunchActivity : ComponentActivity() {
                 Button(onClick = { openBasics() }) {
                     Text(text = "2. Jetpack Compose basics")
                 }
+                Button(onClick = { openBasicLayouts() }) {
+                    Text(text = "3. Basic layouts in Compose")
+                }
             }
         }
     }
@@ -43,5 +46,9 @@ class LaunchActivity : ComponentActivity() {
 
     private fun openBasics() {
         startActivity(Intent(this, BasicsActivity::class.java))
+    }
+
+    private fun openBasicLayouts() {
+        startActivity(Intent(this, BasicLayoutsActivity::class.java))
     }
 }

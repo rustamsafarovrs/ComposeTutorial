@@ -24,8 +24,12 @@
         <activity
             android:name=".StarterActivity"
             android:exported="false" />
-        <activity android:name=".BasicsActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".BasicsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasicLayoutsActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
